@@ -1,0 +1,20 @@
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.primary{
+    color: #E6533C;
+}
+body{
+    background-color: black;
+    
+}
+nav{
+    display: flex;
+    margin: 5px auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1060px;
+}
