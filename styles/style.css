@@ -81,3 +81,20 @@ header{
     right: 70%;
     
 }
+.extra{
+    max-width: 1060px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#222222 ;
+    border-radius: 30px;
+
+}
+#run{
+    width: 366px;
+    height: 312px;
+    border-radius: 30px;
+    
+}
