@@ -4,6 +4,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 .primary{
     color: #E6533C;
 }
@@ -17,4 +23,61 @@ nav{
     justify-content: space-between;
     align-items: center;
     max-width: 1060px;
+}
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.banner{
+    max-width: 1060px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.banner-tittle{
+    width: 520px;
+}
+.banner-tittle >P{
+    opacity: 80%;
+}
+.banner-btn{
+    width:224px ;
+    height: 54px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid gray;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+.banner-photo{
+    
+    position: relative;
+}
+.card-1 {
+    width: 193px;
+    height: 98px;
+    background-color:#FFFFFF1A ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px ;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    
+}
+.card-2 {
+    width: 193px;
+    height: 98px;
+    background-color:#FFFFFF1A ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    bottom:10% ;
+    right: 70%;
+    
 }
